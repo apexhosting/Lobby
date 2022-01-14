@@ -1,0 +1,129 @@
+menu_title: '&7&lAPEX &4&lSERVERS'
+open_command: selector
+size: 18
+update_interval: 1
+items:
+  'creative':
+    material: DIAMOND_BLOCK
+    slot: 0
+    update: true
+    display_name: '&b&lCREATIVE'
+    lore:
+    - ''
+    - '&7Online: &a%server_online%'
+    - '&7Description: &bUnlimited resources & plots!'
+    left_click_commands:
+    - '[connect] creative'
+    - '[message] &aConnecting to creative!'
+    - '[close]'
+    right_click_commands:
+    - '[message] &cYou are already on this server!'
+    - '[close]'
+  'uhc':
+    material: flint_and_steel
+    slot: 2
+    update: true
+    display_name: '&2&lUHC'
+    lore:
+    - ''
+    - '&7Online: &a%server_online%'
+    - '&7Description: &2Ultra Hardcore Combat!'
+    left_click_commands:
+    - '[connect] uhc'
+    - '[message] &2Connecting to uhc!'
+    - '[close]'
+    right_click_commands:
+    - '[message] &cYou are already on this server!'
+    - '[close]'
+  'kitpvp':
+    material: IRON_SWORD
+    slot: 4
+    update: true
+    display_name: '&c&lKITPVP'
+    lore:
+    - ''
+    - '&7Online: &a%server_online%'
+    - '&7Description: &cPVP with kits!'
+    left_click_commands:
+    - '[connect] kitpvp'
+    - '[message] &2Connecting to kitpvp!'
+    - '[close]'
+    right_click_commands:
+    - '[message] &cYou are already on this server!'
+    - '[close]'
+  'bedwars':
+    material: RED_BED
+    slot: 6
+    update: true
+    display_name: '&4&lBEDWARS'
+    lore:
+    - ''
+    - '&7Online: &a%server_online%'
+    - '&7Description: &4Bedwars classic pvp games!'
+    left_click_commands:
+    - '[connect] bedwars'
+    - '[message] &2Connecting to bedwars!'
+    - '[close]'
+    right_click_commands:
+    - '[message] &cYou are already on this server!'
+    - '[close]'
+  'thebridge':
+    material: DIAMOND_SWORD
+    slot: 8
+    update: true
+    display_name: '&e&lTHE BRIDGE'
+    lore:
+    - ''
+    - '&7Online: &a%server_online%'
+    - '&7Description: &eFight over the bridges!'
+    left_click_commands:
+    - '[connect] thebridge'
+    - '[message] &2Connecting to thebridge!'
+    - '[close]'
+    right_click_commands:
+    - '[message] &cYou are already on this server!'
+    - '[close]'
+  'survival':
+    material: GRASS_BLOCK
+    slot: 10
+    update: true
+    display_name: '&a&lSURVIVAL'
+    lore:
+    - ''
+    - '&7Online: &a%server_online%'
+    - '&7Description: &aWill you survive the first night?'
+    left_click_commands:
+    - '[connect] survival'
+    - '[message] &2Connecting to survival!'
+    - '[close]'
+    right_click_commands:
+    - '[message] &cYou are already on this server!'
+    - '[close]'
+  'buildbattle':
+    material: CYAN_WOOL
+    slot: 16
+    update: true
+    display_name: '&3&lBUILD BATTLE'
+    lore:
+    - ''
+    - '&7Online: &a%server_online%'
+    - '&7Description: &3Test your building skills!'
+    left_click_commands:
+    - '[connect] buildbattle'
+    - '[message] &2Connecting to buildbattle!'
+    - '[close]'
+    right_click_commands:
+    - '[message] &cYou are already on this server!'
+    - '[close]'
+  'close':
+    material: BARRIER
+    slot: 13
+    update: true
+    display_name: '&7&lCLOSE'
+    lore:
+    - ''
+    - '&7Description: &8close the menu.'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'

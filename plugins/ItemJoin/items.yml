@@ -1,0 +1,35 @@
+# --{ =-=-=-=-=-=-=-=-=-= ItemJoin's Custom Item Configurations, by RockinChaos =-=-=-=-=-=-=-=-=-= }--
+# See the tutorial page for a more in-depth explanation; https://github.com/RockinChaos/ItemJoin/wiki
+# Join the discord for easy plugin support; https://discord.gg/D5FnJ7C
+
+# Modifying the Version will cause this file to break and regenerate.
+items-Version: 8
+
+# General options that apply to the custom items functionality.
+items-Delay: 2
+items-Overwrite: true
+items-Spamming: false
+items-RestrictCount: false
+
+# This is the section that the custom created items will be stored.
+# All created items should be saved under the 'items' section for each 'custom-item' subsection.
+items:
+  selector:
+    id: COMPASS
+    slot: 0
+    name: '&4SERVER SELECTOR'
+    lore:
+    - '&7eUse this compass to select the server you want to join.'
+    interact:
+    - 'op: server'
+    commands-sound: BLOCK_NOTE_BLOCK_PLING
+    commands-particle: FIREWORK:BLACK:RED:BURST:10
+    commands-cooldown: 5
+    cooldown-message: '&7[&eCore&7] &a[%item%&a] &cis on cooldown for &a%timeleft%
+      &cseconds..'
+    attributes: '{GENERIC_ATTACK_DAMAGE:15.2}, {GENERIC_ATTACK_SPEED:19.0}'
+    enchantment: FIRE_ASPECT:3, DAMAGE_ALL:5, DAMAGE_UNDEAD:5, KNOCKBACK:8
+    itemflags: unbreakable
+    triggers: join, respawn, world-switch, region-enter
+    permission-node: itemjoin.selector
+    enabled-worlds: lobby_world

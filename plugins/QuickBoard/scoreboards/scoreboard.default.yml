@@ -1,0 +1,33 @@
+title:
+  - '&7&lAPEX &4&LNETWORK'
+text:
+  - ''
+  - '&7&o%localtime_time%'
+  - ''
+  - '&cPLAYER: &7{PLAYER}'
+  - '&7RANK: %vault_prefix%'
+  - ''
+  - '&cPLAYERS: &7%server_online%'
+  - '&cPING: &7%player_ping%'
+  - ''
+  - '&4play.apexmc.co'
+updater:
+  title: 3
+  text: 5
+enabledWorlds:
+  - lobby_world
+changeableText:
+  perm_info:
+    text:
+      - '&cscoreboard.default'
+      - '&7scoreboard.default'
+      - '&6scoreboard.default'
+      - '&bscoreboard.default'
+      - '&dscoreboard.default'
+    interval: 10
+scroller:
+  info:
+    text: '&eThis server is running on &e&lQuickBoard! &eThe &c&lbest free scoreboard system on &6&lSpigot!'
+    width: 28
+    spaceBetween: 4
+    update: 2
