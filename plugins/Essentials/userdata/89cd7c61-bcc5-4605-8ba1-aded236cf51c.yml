@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 190.105.162.76
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1642429990644
+  login: 1642429778191
+money: '0'
+last-account-name: SantoII
+lastlocation:
+  world: c9b87452-a184-47cb-bfb6-f2b204373ca5
+  world-name: lobby_world
+  x: 10.5
+  y: 65.0
+  z: -0.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: c9b87452-a184-47cb-bfb6-f2b204373ca5
+  world-name: lobby_world
+  x: 119.74272971792082
+  y: 19.0
+  z: -117.01075189078871
+  yaw: -40.08564376831055
+  pitch: 14.849722862243652

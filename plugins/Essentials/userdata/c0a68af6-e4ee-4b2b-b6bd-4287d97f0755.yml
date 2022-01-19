@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 103.100.225.214
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1642546378416
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1642551521600
+  login: 1642546045408
+money: '0'
+last-account-name: robert_beckley
+lastlocation:
+  world: c9b87452-a184-47cb-bfb6-f2b204373ca5
+  world-name: lobby_world
+  x: 210.9293847508511
+  y: 25.29932200523998
+  z: -102.243661571172
+  yaw: -4.4835205078125
+  pitch: -49.80035400390625
+logoutlocation:
+  world: c9b87452-a184-47cb-bfb6-f2b204373ca5
+  world-name: lobby_world
+  x: 58.816774386925
+  y: 30.179001367928137
+  z: -116.1053318393063
+  yaw: 89.31509399414062
+  pitch: 23.42829132080078

@@ -23,6 +23,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/andesite_stairs_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2022-01-18 22:49:27 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_bricks": {
     "criteria": {
       "has_stone": "2022-01-14 17:06:31 +0000"
@@ -47,6 +53,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_andesite_stairs_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2022-01-18 22:49:27 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/chiseled_stone_bricks": {
     "criteria": {
       "has_tag": "2022-01-14 17:01:59 +0000"
@@ -56,6 +68,12 @@
   "minecraft:recipes/tools/diamond_axe": {
     "criteria": {
       "has_diamond": "2022-01-14 18:05:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite": {
+    "criteria": {
+      "has_andesite": "2022-01-18 22:49:27 +0000"
     },
     "done": true
   },
@@ -86,13 +104,20 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:frozen_river": "2022-01-14 16:03:50 +0000",
-      "minecraft:snowy_plains": "2022-01-14 16:02:56 +0000"
+      "minecraft:snowy_plains": "2022-01-14 16:02:56 +0000",
+      "minecraft:dripstone_caves": "2022-01-18 22:51:08 +0000"
     },
     "done": false
   },
   "minecraft:recipes/combat/diamond_leggings": {
     "criteria": {
       "has_diamond": "2022-01-14 18:05:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/armor_stand": {
+    "criteria": {
+      "has_stone_slab": "2022-01-19 14:03:39 +0000"
     },
     "done": true
   },
@@ -111,6 +136,12 @@
   "minecraft:recipes/decorations/candle": {
     "criteria": {
       "has_string": "2022-01-14 18:00:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite_stairs": {
+    "criteria": {
+      "has_andesite": "2022-01-18 22:49:27 +0000"
     },
     "done": true
   },
@@ -174,6 +205,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_andesite_slab_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2022-01-18 22:49:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2022-01-18 22:49:27 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/acacia_boat": {
     "criteria": {
       "in_water": "2022-01-14 17:01:53 +0000"
@@ -195,6 +238,12 @@
   "minecraft:recipes/building_blocks/stone_slab": {
     "criteria": {
       "has_stone": "2022-01-14 17:06:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite_slab_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2022-01-18 22:49:27 +0000"
     },
     "done": true
   },
@@ -276,6 +325,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/andesite_wall_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2022-01-18 22:49:27 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/emerald_block": {
     "criteria": {
       "has_emerald": "2022-01-14 18:04:39 +0000"
@@ -333,6 +388,18 @@
   "minecraft:recipes/combat/diamond_helmet": {
     "criteria": {
       "has_diamond": "2022-01-14 18:05:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/andesite_wall": {
+    "criteria": {
+      "has_andesite": "2022-01-18 22:49:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite_slab": {
+    "criteria": {
+      "has_andesite": "2022-01-18 22:49:27 +0000"
     },
     "done": true
   },

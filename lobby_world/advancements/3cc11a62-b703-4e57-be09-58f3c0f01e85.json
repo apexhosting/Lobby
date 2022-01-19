@@ -1,0 +1,40 @@
+{
+  "minecraft:recipes/misc/map": {
+    "criteria": {
+      "has_compass": "2022-01-18 22:46:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2022-01-18 22:47:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:skeleton": "2022-01-18 22:47:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/beacon": {
+    "criteria": {
+      "has_nether_star": "2022-01-18 22:46:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:skeleton": "2022-01-18 22:47:57 +0000"
+    },
+    "done": false
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:frozen_river": "2022-01-18 22:46:43 +0000",
+      "minecraft:snowy_plains": "2022-01-18 22:46:42 +0000"
+    },
+    "done": false
+  },
+  "DataVersion": 2865
+}

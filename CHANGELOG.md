@@ -1,6 +1,11 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [1.1]
+
+### Added
+- Added required cosmectic permissions.
+
 ### Changed
 
 #Lobby Setup released for 1.18.1
@@ -19,9 +24,11 @@ All notable changes to this project will be documented in this file.
 - Implemented Luckperms.
 - Implemented Quickboard.
 
+
 ## [1.0]
 
 ### Added
 - Initial commit of pack to Github for version control
 
 [1.0] httpsgithub.comapexhostingLobbyreleasestag1.0
+[1.1] httpsgithub.comapexhostingLobbyreleasestag1.1
