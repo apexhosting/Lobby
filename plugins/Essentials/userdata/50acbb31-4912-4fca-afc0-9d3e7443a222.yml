@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 190.46.214.142
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1642546417651
+  login: 1642546006685
+money: '0'
+last-account-name: Schvaar
+lastlocation:
+  world: c9b87452-a184-47cb-bfb6-f2b204373ca5
+  world-name: lobby_world
+  x: 9.5
+  y: 65.0
+  z: -9.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: c9b87452-a184-47cb-bfb6-f2b204373ca5
+  world-name: lobby_world
+  x: 98.31226761373303
+  y: 43.243136010212
+  z: -159.17560955567296
+  yaw: 60.8115234375
+  pitch: 22.650142669677734

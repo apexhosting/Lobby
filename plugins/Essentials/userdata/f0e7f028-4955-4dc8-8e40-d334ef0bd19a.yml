@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 201.220.139.181
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1642601049228
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1642601054004
+  login: 1642600529215
+money: '0'
+last-account-name: AllanStrat
+logoutlocation:
+  world: c9b87452-a184-47cb-bfb6-f2b204373ca5
+  world-name: lobby_world
+  x: 136.5
+  y: 21.0
+  z: -117.5
+  yaw: 89.83767700195312
+  pitch: -0.600022554397583
+lastlocation:
+  world: c9b87452-a184-47cb-bfb6-f2b204373ca5
+  world-name: lobby_world
+  x: 116.0562969615912
+  y: 27.0
+  z: -216.2636236299402
+  yaw: 42.794921875
+  pitch: 11.735321998596191

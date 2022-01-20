@@ -1,0 +1,64 @@
+Mystery-Vaults:
+  '1':
+    BlockFace: EAST
+    Location:
+      world: lobby_world
+      x: 135.0
+      y: 21.0
+      z: -121.0
+  '2':
+    BlockFace: EAST
+    Location:
+      world: lobby_world
+      x: 135.0
+      y: 21.0
+      z: -115.0
+  '3':
+    BlockFace: NORTH
+    Location:
+      world: lobby_world
+      x: 105.0
+      y: 36.0
+      z: -117.0
+  '4':
+    BlockFace: NORTH
+    Location:
+      world: lobby_world
+      x: 102.0
+      y: 20.0
+      z: -139.0
+  '5':
+    BlockFace: NORTH
+    Location:
+      world: lobby_world
+      x: 106.0
+      y: 20.0
+      z: -139.0
+  '6':
+    BlockFace: SOUTH
+    Location:
+      world: lobby_world
+      x: 106.0
+      y: 20.0
+      z: -97.0
+  '7':
+    BlockFace: SOUTH
+    Location:
+      world: lobby_world
+      x: 102.0
+      y: 20.0
+      z: -97.0
+  '8':
+    BlockFace: WEST
+    Location:
+      world: lobby_world
+      x: 78.0
+      y: 26.0
+      z: -115.0
+  '9':
+    BlockFace: EAST
+    Location:
+      world: lobby_world
+      x: 78.0
+      y: 26.0
+      z: -121.0

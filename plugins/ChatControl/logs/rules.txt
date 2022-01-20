@@ -1,0 +1,1 @@
+[18.01.2022 22:56:16] AllanDev: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gmysteryboxes giveall 5

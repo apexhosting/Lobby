@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 50.90.27.242
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1642546413901
+  login: 1642546225897
+money: '0'
+last-account-name: LordSherman
+lastlocation:
+  world: c9b87452-a184-47cb-bfb6-f2b204373ca5
+  world-name: lobby_world
+  x: 9.5
+  y: 65.0
+  z: -3.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: c9b87452-a184-47cb-bfb6-f2b204373ca5
+  world-name: lobby_world
+  x: 47.225792134757725
+  y: 27.0
+  z: -117.08604467899364
+  yaw: -101.69959259033203
+  pitch: 1.362755298614502
