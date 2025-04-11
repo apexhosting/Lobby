@@ -1,0 +1,96 @@
+inventory:
+  armor:
+  - null
+  - null
+  - null
+  - null
+  content:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: COMPASS
+    meta:
+      ==: ItemMeta
+      meta-type: COMPASS
+      display-name: '{"text":"","extra":[{"text":"SERVER SELECTOR","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"dark_red"}]}'
+      lore:
+      - '{"text":"","extra":[{"text":"eUse this compass to select the server you want
+        to join.","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"gray"}]}'
+      enchants:
+        minecraft:fire_aspect: 3
+        minecraft:knockback: 8
+        minecraft:sharpness: 5
+        minecraft:smite: 5
+      attribute-modifiers:
+        minecraft:attack_damage:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 15.2
+          slot: mainhand
+          operation: 0
+          key: minecraft:4efd831d-c245-3f5f-8158-a4ab67b05c51
+        minecraft:attack_speed:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 19.0
+          slot: mainhand
+          operation: 0
+          key: minecraft:c5d715a0-5937-3455-92d4-f4a971a97e49
+      Unbreakable: true
+      custom: H4sIAAAAAAAA/+NiYOBg4PUsSc31ys/MUwjOyS9hYDRAFvJLzE1l4ChOzUlNLskvYmQQ8MlPSS0uyc9LDSlKTM5OTWFgAABvtMHeRQAAAA==
+  - null
+  - null
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: NETHER_STAR
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"","extra":[{"text":"COSMETICS","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"light_purple"}]}'
+      lore:
+      - '{"text":"","extra":[{"text":"Mystery Dust: ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"gray"},{"text":"100","italic":false,"color":"aqua"}]}'
+      - '""'
+      - '{"text":"","extra":[{"text":"Enjoy fun cosmetic features!","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"gray"}]}'
+      - '{"text":"","extra":[{"text":"More stuff will be added over time,","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"gray"}]}'
+      - '{"text":"","extra":[{"text":"make sure to check our update forums!","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"gray"}]}'
+      - '{"text":"","extra":[{"text":"Thanks you for supporting our server.","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"gray"}]}'
+      ItemFlags:
+      - HIDE_ADDITIONAL_TOOLTIP
+      PublicBukkitValues: |-
+        {
+            "gadgetsmenu:menu_selector": "true"
+        }
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null

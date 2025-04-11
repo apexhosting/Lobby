@@ -17,7 +17,7 @@
 # ------------------------------------------------------------------------------------------------
 # [!] DO NOT UNCOMMENT THE LINES BELOW - THEY ARE ONLY EXAMPLES OF ALL KEYS THE PLUGIN ACCEPTS [-]
 # ------------------------------------------------------------------------------------------------
-#Advertising_Ban_Filter:
+# Advertising_Ban_Filter:
 #  
 #  # If the player has the permission their message will no be checked/handled.
 #  Bypass_With_Permission: "chatcontrol.bypass.ad"
@@ -71,42 +71,40 @@
 # -------------------------------------------------------------------------------------------------
 
 advertisement:
-  Bypass_With_Permission: "chatcontrol.bypass.ad"
+  Bypass_With_Permission: chatcontrol.bypass.ad
   Ignored_In_Commands:
-    - // # WorldEdit
-    - /brush
-    - /auction
-    - /register
-    - /reg
-    - /login
-    - /l
+  - //
+  - /brush
+  - /auction
+  - /register
+  - /reg
+  - /login
+  - /l
   
-  Player_Warn_Message: "&7Please do not advertise other websites or IP adresses."
-  #Broadcast_Message: "&c{player} might have advertised, alert admins!"
-  Console_Message: "{player} violated rule ID {ruleID}, triggered {handler} filter with: {message}"
-  
-  Staff_Alert_Message: "&8[&7Ad/ID {ruleID}&8] &7{player}: &f{message}"
-  Staff_Alert_Permission: chatcontrol.notify.ad
+  Player_Warn_Message: '&7Please do not advertise other websites or IP adresses.'
+  # Broadcast_Message: "&c{player} might have advertised, alert admins!"
+  Console_Message: '{player} violated rule ID {ruleID}, triggered {handler} filter
+    with: {message}'
   
   Block_Message: true
   Write_To_File: logs/advertisements.txt
+  Staff_Alert: 'chatcontrol.notify.ad &8[&7Ad/ID {ruleID}&8] &7{player}: &f{message}'
 
 swear:
-  Bypass_With_Permission: "chatcontrol.bypass.swear"
+  Bypass_With_Permission: chatcontrol.bypass.swear
   Ignored_In_Commands:
-    - // # WorldEdit
-    - /brush
-    - /auction
-    - /register
-    - /reg
-    - /login
-    - /l
-
-  Player_Warn_Message: "&cPlease do not swear, otherwise an action will be taken!"
-  Console_Message: "{player} violated rule ID {ruleID}, triggered {handler} filter with: {message}"
+  - //
+  - /brush
+  - /auction
+  - /register
+  - /reg
+  - /login
+  - /l
   
-  Staff_Alert_Message: "&8[&7Swear/ID {ruleID}&8] &7{player}: &f{message}"
-  Staff_Alert_Permission: chatcontrol.notify.swear
-
-  Replace_Word: "*****"
+  Player_Warn_Message: '&cPlease do not swear, otherwise an action will be taken!'
+  Console_Message: '{player} violated rule ID {ruleID}, triggered {handler} filter
+    with: {message}'
+  
+  Replace_Word: '*****'
   Write_To_File: logs/swears.txt
+  Staff_Alert: 'chatcontrol.notify.swear &8[&7Swear/ID {ruleID}&8] &7{player}: &f{message}'

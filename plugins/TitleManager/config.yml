@@ -113,10 +113,10 @@ welcome-title:
   enabled: true
 
   # The title shown.
-  title: '&c&LAPEX NETWORK'
+  title: '&9&LAPEX NETWORK'
 
   # The subtitle shown.
-  subtitle: '&eWelcome to our network!'
+  subtitle: '&bWelcome to our network!'
 
   # The time it takes for the title to fade into the screen. (In ticks)
   fade-in: 20
@@ -134,10 +134,10 @@ welcome-title:
   first-join:
 
     # The title shown.
-    title: '&c&LAPEX NETWORK'
+    title: '&9&LAPEX NETWORK'
 
     # The subtitle shown.
-    subtitle: '&eWelcome to our network!'
+    subtitle: '&bWelcome to our network!'
 
 ############################################################
 # +------------------------------------------------------+ #
@@ -153,13 +153,13 @@ welcome-actionbar:
   enabled: true
 
   # The message shown.
-  title: '&c&LAPEX NETWORK'
+  title: '&9&LAPEX NETWORK'
 
   # The time it takes for the message to appear. (In ticks)
   delay: 20
 
   # The message shown when the player joins the server for the first time.
-  first-join: '&c&LAPEX NETWORK'
+  first-join: '&9&LAPEX NETWORK'
 
 ############################################################
 # +------------------------------------------------------+ #

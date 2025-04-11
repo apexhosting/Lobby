@@ -1,0 +1,12 @@
+location: lobby_world:118.519:22.705:-122.347
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&7STATUS: {status: survival}'
+    height: 0.3
+  actions: {}

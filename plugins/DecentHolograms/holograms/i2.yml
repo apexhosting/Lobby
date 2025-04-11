@@ -1,0 +1,12 @@
+location: lobby_world:116.382:22.705:-114.507
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&7STATUS: {status: uhc}'
+    height: 0.3
+  actions: {}

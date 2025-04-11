@@ -19,3 +19,4 @@ mysql:
   database: ''
   username: ''
   minConnections: 2
+  tx_isolation: ''

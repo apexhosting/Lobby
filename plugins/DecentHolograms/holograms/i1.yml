@@ -1,0 +1,12 @@
+location: lobby_world:118.324:22.705:-112.420
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&7STATUS: {status: creative}'
+    height: 0.3
+  actions: {}

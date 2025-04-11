@@ -1,0 +1,14 @@
+location: lobby_world:135.537:22.376:-111.470
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&4&lCANNON'
+    height: 0.3
+  - content: '&7Fire!'
+    height: 0.3
+  actions: {}
