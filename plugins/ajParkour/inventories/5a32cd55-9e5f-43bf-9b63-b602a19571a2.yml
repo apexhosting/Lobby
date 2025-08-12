@@ -3,73 +3,81 @@ inventory:
   - null
   - null
   - null
-  - null
+  - ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"text":"","extra":[{"text":"Emerald Steve Hat","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"gold"}]}'
+      ItemFlags:
+      - HIDE_ADDITIONAL_TOOLTIP
+      PublicBukkitValues: |-
+        {
+            "gadgetsmenu:category": "Hat",
+            "gadgetsmenu:cosmetics": "true"
+        }
+      skull-owner:
+        ==: PlayerProfile
+        uniqueId: c84ca0a5-a335-4887-b250-47fd716e6705
+        name: c84ca0a5-a33
+        properties:
+        - name: textures
+          value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjViNjU2ZGE2NjZkMjc1OWU4MTk1NjQyMTQyZTExOWU2NTg1ODUyYzY2MTllMmFkNzlhZTJhZDE4MTQ2NSJ9fX0=
   content:
   - ==: org.bukkit.inventory.ItemStack
-    v: 2865
+    v: 4189
     type: COMPASS
     meta:
       ==: ItemMeta
       meta-type: COMPASS
-      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_red","text":"SERVER
-        SELECTOR"}],"text":""}'
+      display-name: '{"text":"","extra":[{"text":"SERVER SELECTOR","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"dark_red"}]}'
       lore:
-      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"eUse
-        this compass to select the server you want to join."}],"text":""}'
+      - '{"text":"","extra":[{"text":"eUse this compass to select the server you want
+        to join.","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"gray"}]}'
       enchants:
-        FIRE_ASPECT: 3
-        KNOCKBACK: 8
-        DAMAGE_ALL: 5
-        DAMAGE_UNDEAD: 5
+        minecraft:fire_aspect: 3
+        minecraft:knockback: 8
+        minecraft:sharpness: 5
+        minecraft:smite: 5
       attribute-modifiers:
-        GENERIC_ATTACK_DAMAGE:
+        minecraft:attack_damage:
         - ==: org.bukkit.attribute.AttributeModifier
           amount: 15.2
-          name: generic.attack.damage
-          slot: HAND
-          uuid: 4efd831d-c245-3f5f-8158-a4ab67b05c51
+          slot: mainhand
           operation: 0
-        GENERIC_ATTACK_SPEED:
+          key: minecraft:4efd831d-c245-3f5f-8158-a4ab67b05c51
+        minecraft:attack_speed:
         - ==: org.bukkit.attribute.AttributeModifier
           amount: 19.0
-          name: generic.attack.speed
-          slot: HAND
-          uuid: c5d715a0-5937-3455-92d4-f4a971a97e49
+          slot: mainhand
           operation: 0
+          key: minecraft:c5d715a0-5937-3455-92d4-f4a971a97e49
       Unbreakable: true
-      internal: H4sIAAAAAAAA/+NiYOBg4PUsSc31ys/MUwjOyS9hYDRAFvJLzE1l4ChOzUlNLskvYgAAIM2VZDEAAAA=
-      LodestoneTracked: false
+      custom: H4sIAAAAAAAA/+NiYOBg4PUsSc31ys/MUwjOyS9hYDRAFvJLzE1l4ChOzUlNLskvYmQQ8MlPSS0uyc9LDSlKTM5OTWFgAABvtMHeRQAAAA==
   - null
   - null
   - null
   - ==: org.bukkit.inventory.ItemStack
-    v: 2865
+    v: 4189
     type: NETHER_STAR
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC
-      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"light_purple","text":"COSMETICS"}],"text":""}'
+      display-name: '{"text":"","extra":[{"text":"COSMETICS","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"light_purple"}]}'
       lore:
-      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Mystery
-        Dust: "},{"italic":false,"color":"aqua","text":"100"}],"text":""}'
-      - '{"text":""}'
-      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Enjoy
-        fun cosmetic features!"}],"text":""}'
-      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"More
-        stuff will be added over time,"}],"text":""}'
-      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"make
-        sure to check our update forums!"}],"text":""}'
-      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Thanks
-        you for supporting our server."}],"text":""}'
+      - '{"text":"","extra":[{"text":"Mystery Dust: ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"gray"},{"text":"100","italic":false,"color":"aqua"}]}'
+      - '""'
+      - '{"text":"","extra":[{"text":"Enjoy fun cosmetic features!","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"gray"}]}'
+      - '{"text":"","extra":[{"text":"More stuff will be added over time,","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"gray"}]}'
+      - '{"text":"","extra":[{"text":"make sure to check our update forums!","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"gray"}]}'
+      - '{"text":"","extra":[{"text":"Thanks you for supporting our server.","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"gray"}]}'
       ItemFlags:
-      - HIDE_ENCHANTS
-      - HIDE_ATTRIBUTES
-      - HIDE_UNBREAKABLE
-      - HIDE_DESTROYS
-      - HIDE_PLACED_ON
-      - HIDE_POTION_EFFECTS
-      - HIDE_DYE
-      internal: H4sIAAAAAAAA/+NiYOBi4HZPTElPLSn2Tc0r5WDgBVHxwak5qckl+UUMLCVFpakMDADi74YlKQAAAA==
+      - HIDE_ADDITIONAL_TOOLTIP
+      PublicBukkitValues: |-
+        {
+            "gadgetsmenu:menu_selector": "true"
+        }
   - null
   - null
   - null
@@ -104,5 +112,25 @@ inventory:
   - null
   - null
   - null
-  - null
+  - ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"text":"","extra":[{"text":"Emerald Steve Hat","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"gold"}]}'
+      ItemFlags:
+      - HIDE_ADDITIONAL_TOOLTIP
+      PublicBukkitValues: |-
+        {
+            "gadgetsmenu:category": "Hat",
+            "gadgetsmenu:cosmetics": "true"
+        }
+      skull-owner:
+        ==: PlayerProfile
+        uniqueId: c84ca0a5-a335-4887-b250-47fd716e6705
+        name: c84ca0a5-a33
+        properties:
+        - name: textures
+          value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjViNjU2ZGE2NjZkMjc1OWU4MTk1NjQyMTQyZTExOWU2NTg1ODUyYzY2MTllMmFkNzlhZTJhZDE4MTQ2NSJ9fX0=
   - null

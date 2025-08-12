@@ -1,0 +1,49 @@
+default:
+  title:
+    random: false
+    speed: 100
+    text:
+      - "&9&lAPEX &b&LNETWORK"
+      - "&b&lAPEX &9&LNETWORK"
+  line1:
+    left-aligned:
+      random: false
+      speed: 0
+      text:
+      - ""
+  line2:
+    left-aligned:
+      random: false
+      speed: 0
+      text:
+      - "&9%localtime_time%"
+  line3:
+    left-aligned:
+      random: false
+      speed: 0
+      text:
+      - ""
+  line4:
+    left-aligned:
+      random: false
+      speed: 0
+      text:
+      - "&bPLAYER: &d%username%"
+  line5:
+    left-aligned:
+      random: false
+      speed: 0
+      text:
+      - "&bPLAYERS: &9%server_online%"
+  line7:
+    left-aligned:
+      random: false
+      speed: 0
+      text:
+      - ""
+  line8:
+    left-aligned:
+      random: false
+      speed: 0
+      text:
+      - "&bplay.apexmc.co"

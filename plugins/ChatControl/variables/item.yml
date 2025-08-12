@@ -1,0 +1,45 @@
+# -------------------------------------------------------------------------------------------------
+# Getting the item the player has in their hands.
+# -------------------------------------------------------------------------------------------------
+#
+# The type determines where the variable can be used:
+#
+# MESSAGE - players can use this variable in chat with [key] syntax (DOES NOT YET WORK, comes in CCP9)
+# FORMAT - you can use this variable in your format with the {key} syntax 
+#
+Type: MESSAGE
+#
+# The key we look for in the chat, example:
+# chat message: "Hello everyone, I have an [item] in my hand"
+#
+Key: "item"
+#
+# The value the key will be replaced to.
+#
+# This uses JavaScript and must return a boolean value
+#
+# If you have no idea how to code in JavaScript you most likely take
+# no benefit of custom variables, but if you do, please see the following
+# article for basic explanation: https://winterbe.com/posts/2014/04/05/java8-nashorn-tutorial/
+#
+Value: "player.getItemInHand().getType()"
+#
+# What ItemStack should be displayed when we hover the mouse
+# over this variable in the chat
+#
+Hover_Item: "player.getItemInHand()"
+#
+# What texts should be displayed when we hover the mouse
+# over this variable in the chat
+#
+#Hover: []
+#
+# What website URL should be opened when we click with the mouse
+# on this variable in the chat
+#
+#Open_Url: ""
+#
+# What command should appear in the player command box on his screen
+# if he clicks on this variable in the chat
+#
+#Suggest_Command: ""

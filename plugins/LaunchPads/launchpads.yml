@@ -6,7 +6,7 @@ default:
   type: REGULAR
   effects:
     sound:
-      type: ENTITY_FIREWORK_ROCKET_SHOOT
+      type: ENTITY_BAT_TAKEOFF
       volume: 1.0
       pitch: 1.0
     particle:

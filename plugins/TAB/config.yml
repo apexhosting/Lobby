@@ -1,113 +1,76 @@
-# Detailed explanation of all options available at https://github.com/NEZNAMY/TAB/wiki/config.yml
-
 header-footer:
   enabled: true
-  disable-in-worlds:
-    - disabledworld
   header:
-    - "&7&lAPEX &4&LNETWORK"
-    - "&7Welcome &c%player%!"
-    - "&4Online players: &7%online%"
-    - "&7Online staff: &c%staffonline%"
-    - ""
-    - "&4------------------------"
+  - '&b&lAPEX &9&LNETWORK'
+  - '&bWelcome &9%player%!'
+  - '&5Online players: &d%online%'
+  - '&7Online staff: &c%staffonline%'
+  - ''
+  - '&b------------------------'
   footer:
-    - "&4------------------------"
-    - "%animation:time%"
-    - "%animation:ping-tps%"
-    - ""
-    - "&7Visit our webpage &4apexminecrafthosting.com"
+  - '&b------------------------'
+  - '%animation:time%'
+  - '%animation:ping-tps%'
+  - ''
+  - '&3Visit our webpage &bapexminecrafthosting.com'
   per-world:
     world1:
       header:
-        - "an example of world with custom"
+      - an example of world with custom
       footer:
-        - "header/footer and prefix/suffix"
+      - header/footer and prefix/suffix
     world2;world3:
       header:
-        - "This is a shared header for"
-        - "world2 and world3"
-
+      - This is a shared header for
+      - world2 and world3
+  disable-condition: '%world%=disabledworld'
 tablist-name-formatting:
   enabled: true
-  align-tabsuffix-on-the-right: false
-  character-width-overrides: {}
   anti-override: true
-  disable-in-worlds:
-    - disabledworld
-
+  disable-condition: '%world%=disabledworld'
 scoreboard-teams:
   enabled: true
   enable-collision: true
   invisible-nametags: false
   anti-override: true
   sorting-types:
-    - "GROUPS:owner,admin,mod,helper,builder,vip,default"
-    - "PLACEHOLDER_A_TO_Z:%player%"
+  - GROUPS:owner,admin,mod,helper,builder,vip,default
+  - PLACEHOLDER_A_TO_Z:%player%
   case-sensitive-sorting: true
-  disable-in-worlds:
-    - disabledworld
-  unlimited-nametag-mode:
-    enabled: false
-    use-marker-tag-for-1-8-x-clients: false
-    disable-on-boats: true
-    space-between-lines: 0.22
-    disable-in-worlds:
-      - disabledworld
-    dynamic-lines:
-      - abovename
-      - nametag #the original one, combination of tagprefix + customtagname + tagsuffix
-      - belowname
-      - another
-    static-lines:
-      myCustomLine: 0.66
-
-yellow-number-in-tablist:
-  enabled: true
-  value: "%ping%"
-  disable-in-worlds:
-    - disabledworld
-
+  disable-condition: '%world%=disabledworld'
 belowname-objective:
   enabled: false
-  number: "%health%"
-  text: "&cHealth"
-  disable-in-worlds:
-    - disabledworld
-
+  disable-condition: '%world%=disabledworld'
+  fancy-value-default: NPC
+  fancy-value: '&c%health%'
+  value: '%health%'
+  title: '&cHealth'
 prevent-spectator-effect:
   enabled: false
-
 bossbar:
   enabled: false
   toggle-command: /bossbar
   remember-toggle-choice: false
   hidden-by-default: false
-  disable-in-worlds:
-    - disabledworld
   bars:
     ServerInfo:
-      style: "PROGRESS" # for 1.9+: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
-      color: "%animation:barcolors%" # for 1.9+: BLUE, GREEN, PINK, PURPLE, RED, WHITE, YELLOW
-      progress: "100" # in %
-      text: "&fWebsite: &bwww.domain.com"
-
+      style: PROGRESS
+      color: '%animation:barcolors%'
+      progress: '100'
+      text: '&fWebsite: &bwww.domain.com'
 per-world-playerlist:
   enabled: false
-  # players with tab.staff will always see all players
   allow-bypass-permission: false
-  # players in these worlds will always see all players
   ignore-effect-in-worlds:
-    - ignoredworld
-    - build
+  - ignoredworld
+  - build
   shared-playerlist-world-groups:
     lobby:
-      - lobby1
-      - lobby2
+    - lobby1
+    - lobby2
     minigames:
-      - paintball
-      - bedwars
-
+    - paintball
+    - bedwars
 scoreboard:
   enabled: false
   toggle-command: /sb
@@ -116,99 +79,75 @@ scoreboard:
   use-numbers: false
   static-number: 0
   delay-on-join-milliseconds: 0
-  respect-other-plugins: true
-  disable-in-worlds: 
-    - disabledworld
   scoreboards:
     admin:
-      # Only players with tab.scoreboard.admin can see this scoreboard, others will see scoreboard1
-      display-condition: "permission:tab.scoreboard.admin"
-      title: "Admin scoreboard"
+      display-condition: permission:tab.scoreboard.admin
+      title: Admin scoreboard
       lines:
-        - "%animation:MyAnimation1%"
-        - "&6Online:"
-        - "* &eOnline&7: &f%online%&7/&4%maxplayers%"
-        - "* &eCurrent World&7: &f%worldonline%"
-        - "* &eStaff&7: &f%staffonline%"
-        - ""
-        - "&6Server Info:"
-        - "* &bTPS&7: %tps%"
-        - "* &bUptime&7: &f%server_uptime%"
-        - "* &bMemory&7: &f%memory-used%&7/&4%memory-max%"
-        - "%animation:MyAnimation1%"
+      - '%animation:MyAnimation1%'
+      - '&6Online:'
+      - '* &eOnline&7: &f%online%&7/&4%maxplayers%'
+      - '* &eCurrent World&7: &f%worldonline%'
+      - '* &eStaff&7: &f%staffonline%'
+      - ''
+      - '&6Server Info:'
+      - '* &bTPS&7: %tps%'
+      - '* &bUptime&7: &f%server_uptime%'
+      - '* &bMemory&7: &f%memory-used%&7/&4%memory-max%'
+      - '%animation:MyAnimation1%'
     scoreboard1:
-      title: "Default"
+      title: Default
       lines:
-        - "%animation:MyAnimation1%"
-        - "&6My Stats:"
-        - "* &eKills&7: &f%statistic_player_kills%"
-        - "* &eDeaths&7: &f%statistic_deaths%"
-        - "* &eHealth&7: &f%health%"
-        - ""
-        - "&6Personal Info:"
-        - "* &bRank&7: &f%rank%"
-        - "* &bPing&7: &f%ping%&7ms"
-        - "* &bWorld&7: &f%world%"
-        - "%animation:MyAnimation1%"
-
+      - '%animation:MyAnimation1%'
+      - '&6My Stats:'
+      - '* &eKills&7: &f%statistic_player_kills%'
+      - '* &eDeaths&7: &f%statistic_deaths%'
+      - '* &eHealth&7: &f%health%'
+      - ''
+      - '&6Personal Info:'
+      - '* &bRank&7: &f%rank%'
+      - '* &bPing&7: &f%ping%&7ms'
+      - '* &bWorld&7: &f%world%'
+      - '%animation:MyAnimation1%'
 ping-spoof:
   enabled: false
   value: 0
-
-fix-pet-names:
-  enabled: false
-
 placeholders:
-  date-format: "dd.MM.yyyy"
-  time-format: "[HH:mm:ss / h:mm a]"
+  date-format: dd.MM.yyyy
+  time-format: '[HH:mm:ss / h:mm a]'
   time-offset: 0
-  remove-strings:
-    - "[]"
-    - "< >"
-
 placeholder-output-replacements:
-  "%essentials_vanished%":
-    "yes": "&7| Vanished"
-    "no": ""
-  "%afk%":
-    true: " &o[AFK]&r"
-    false: ""
-  "%essentials_nickname%":
-    "%essentials_nickname%": "%player%" #placeholder did not parse correctly, show real name instead
-
+  '%essentials_vanished%':
+    'yes': '&7| Vanished'
+    'no': ''
+  '%afk%':
+    true: ' &o[AFK]&r'
+    false: ''
+  '%essentials_nickname%':
+    '%essentials_nickname%': '%player%'
 conditions:
-  nick: # use it with %condition:nick%
+  nick:
     conditions:
-      - "%player%=%essentials_nickname%"
-    yes: "%player%"
-    no: "~%essentials_nickname%"
-
+    - '%player%=%essentials_nickname%'
+    true: '%player%'
+    false: ~%essentials_nickname%
 placeholderapi-refresh-intervals:
   default-refresh-interval: 500
-  server:
-    "%server_uptime%": 1000
-    "%server_tps_1_colored%": 1000
-    "%server_unique_joins%": 5000
-  player:
-    "%player_health%": 200
-    "%player_ping%": 1000
-    "%vault_prefix%": 1000
-  relational:
-    "%rel_factionsuuid_relation_color%": 1000
-
-#if none of the above fits your needs, you can enable this to give groups using tab.group.<group name from the list below> permission
+  '%server_uptime%': 1000
+  '%server_tps_1_colored%': 1000
+  '%server_unique_joins%': 5000
+  '%player_health%': 200
+  '%player_ping%': 1000
+  '%vault_prefix%': 1000
+  '%rel_factionsuuid_relation_color%': 1000
 assign-groups-by-permissions: false
-
-#if the option above is true, all groups are taken based on permissions and the one higher in this list is used as primary
 primary-group-finding-list:
-  - Owner
-  - Admin
-  - Mod
-  - Helper
-  - default
-
+- Owner
+- Admin
+- Mod
+- Helper
+- default
 debug: false
-
 mysql:
   enabled: false
   host: 127.0.0.1
@@ -216,3 +155,65 @@ mysql:
   database: tab
   username: user
   password: password
+use-online-uuid-in-tablist: true
+permission-refresh-interval: 1000
+enable-redisbungee-support: true
+compensate-for-packetevents-bug: false
+global-playerlist:
+  update-latency: false
+  enabled: false
+layout:
+  enabled: false
+  direction: COLUMNS
+  default-skin: mineskin:1753261242
+  enable-remaining-players-text: true
+  remaining-players-text: '... and %s more'
+  layouts:
+    staff:
+      condition: permission:tab.staff
+      fixed-slots:
+      - '1|&3RAM&f:'
+      - 2|&b%memory-used%MB / %memory-max%MB
+      - '3|&8&m                       '
+      - '4|&3TPS&f:'
+      - 5|&b%tps%
+      groups:
+        staff:
+          condition: permission:tab.staff
+          slots:
+          - 24-40
+        players:
+          slots:
+          - 44-80
+    default:
+      fixed-slots:
+      - '1|&3Website&f:'
+      - 2|&bmyserver.net
+      - '3|&8&m                       '
+      - '4|&3Name&f:'
+      - 5|&b%player%
+      - '7|&3Rank&f:'
+      - '8|Rank: %group%'
+      - '10|&3World&f:'
+      - 11|&b%world%
+      - '13|&3Time&f:'
+      - 14|&b%time%
+      - '21|&3Teamspeak&f:'
+      - 22|&bts.myserver.net
+      - '23|&8&m                       '
+      - '41|&3Store&f:'
+      - 42|&bshop.myserver.net
+      - '43|&8&m                       '
+      groups:
+        staff:
+          condition: permission:tab.staff
+          slots:
+          - 24-40
+        players:
+          slots:
+          - 44-80
+playerlist-objective:
+  enabled: true
+  value: '%ping%'
+  disable-condition: '%world%=disabledworld'
+  fancy-value: '&7Ping: %ping%'

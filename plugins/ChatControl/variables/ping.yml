@@ -1,0 +1,25 @@
+# -------------------------------------------------------------------------------------------------
+# Getting the players ping (how fast is their internet) in milliseconds.
+# -------------------------------------------------------------------------------------------------
+#
+# The type determines where the variable can be used:
+#
+# MESSAGE - players can use this variable in chat with [key] syntax (DOES NOT YET WORK, comes in CCP9)
+# FORMAT - you can use this variable in your format with the {key} syntax 
+#
+Type: FORMAT
+#
+# The key we look for in the chat, example:
+# chat message: "Oh dear, my ping is [ping]."
+#
+Key: "ping"
+#
+# The value the key will be replaced to.
+#
+# This uses JavaScript and must return a boolean value
+#
+# If you have no idea how to code in JavaScript you most likely take
+# no benefit of custom variables, but if you do, please see the following
+# article for basic explanation: https://winterbe.com/posts/2014/04/05/java8-nashorn-tutorial/
+#
+Value: "player.getHandle().ping"

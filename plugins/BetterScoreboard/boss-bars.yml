@@ -1,0 +1,32 @@
+default:
+  text:
+    random: false
+    speed: 80
+    text:
+      - "&5Welcome"
+      - "&dto the"
+      - "&9server!"
+  color:
+    random: false
+    speed: 80
+    color:
+      - "pink"
+      - "purple"
+      - "blue"
+  division:
+    random: false
+    speed: -1
+    division:
+      - 1
+  health:
+    random: false
+    speed: 10
+    health:
+      - 0.0
+      - 0.25
+      - 0.5
+      - 0.75
+      - 1.0
+      - 0.75
+      - 0.5
+      - 0.25
